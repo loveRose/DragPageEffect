@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.lvyerose.drag.dragpageeffect.view.HeadScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/header_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="6dp"
+            android:background="#dedede" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:drawableLeft="@mipmap/scroll_top_icon"
+                android:drawablePadding="6dp"
+                android:gravity="center"
+                android:text="上拉查画册"
+                android:textColor="#666666"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.app.lvyerose.drag.dragpageeffect.view.HeadScrollView>
